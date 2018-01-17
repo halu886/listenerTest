@@ -7,10 +7,10 @@ version="2.4">
         <servlet-class>com.example.ListenerTest</servlet-class>
     </servlet>
 
-    <sevlet-mapping>
-        <sevlet-name>ListenerTester</sevlet-name>
+    <servlet-mapping>
+        <servlet-name>ListenerTester</servlet-name>
         <url-pattern>/ListenTest.do</url-pattern>
-    </sevlet-mapping>
+    </servlet-mapping>
 
     <context-param>
         <param-name>breed</param-name>
